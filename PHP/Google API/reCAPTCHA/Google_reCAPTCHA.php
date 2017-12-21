@@ -1,6 +1,6 @@
 <html>
 <head>
-
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <meta charset="UTF-8">
 <meta name="description" content="This is the demo of Integrating Google reCAPTCHA in your website with example">
 <meta name="keywords" content="Google reCAPTCHA, Robot identification, Bot identification, Captcha, reCAPTCHA,  reCAPTCHA Live demo,
@@ -16,7 +16,8 @@ CAPTCHA demo, Google CAPTCHA, CAPTCHA LiveDemo, dreamscoder.com,dreamscoder">
 <form action="" method="post">
 Name : <input type="text" name="name"><br>
 City : <input type="text" name="city"><br><br>
-<div class="g-recaptcha" data-sitekey="***** YOUR SITE KEY goes here *****"></div>
+<div class="g-recaptcha" data-sitekey="6LfF9z0UAAAAAP9UlF2XD1DcWX4VyEtBHLvh1ayk"></div>	
+<div class="g-recaptcha" data-sitekey="6LfF9z0UAAAAAP9UlF2XD1DcWX4VyEtBHLvh1ayk"></div>
 <input type="submit" name="submit" value="submit">
 
 </form>
@@ -29,7 +30,7 @@ if(isset($_POST['submit']))
 function CheckCaptcha($userResponse) {
         $fields_string = '';
         $fields = array(
-            'secret' => '****** YOUR SECRET KEY goes here ******',
+            'secret' => '6LfF9z0UAAAAAA5U8PC6tmdOLDy4YQhrZs5rSTyr',
             'response' => $userResponse
         );
         foreach($fields as $key=>$value)
@@ -64,3 +65,76 @@ function CheckCaptcha($userResponse) {
     ?>
     
     </body>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
